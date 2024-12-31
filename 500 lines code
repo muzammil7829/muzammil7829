@@ -1,0 +1,591 @@
+INDEX . HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Crust Chronicles</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+<div class="container">
+<h1> The Crust Chronicles</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="my-orders.html">My Orders</a></li>
+</ul>
+</div>
+</nav>
+<section class="hero">
+<div class="container">
+<h2>Fresh, Hot, Delicious Pizza</h2>
+<p>Crafting the most mouthwatering pizzas in town, delivered straight to your doorstep.
+Experience pizza perfection with every bite!</p>
+<a href="menu.html" class="btn">Explore Our Menu</a>
+</div>
+</section>
+<main class="container">
+<section>
+<h3>Featured Pizzas</h3>
+<div class="pizza-grid">
+<div class="pizza-card">
+<img src="/images/closeup-tasty-appetizing-salami-pizza-with-cheese-spices.jpg"
+alt="Pepperoni Pizza">
+<h3>Classic Pepperoni</h3>
+<p>Loaded with pepperoni and cheese</p>
+<p class="price">$12.99</p>
+</div>
+<div class="pizza-card">
+<img src="/images/pp.png" alt="Vegetarian Pizza">
+<h3>Veggie Supreme</h3>
+<p>Fresh vegetables and mozzarella</p>
+<p class="price">$14.99</p>
+</div>
+<div class="pizza-card">
+<img src="/images/pp2.png" alt="Hawaiian Pizza">
+<h3>Hawaiian Delight</h3>
+<p>Ham, pineapple, and special sauce</p>
+<p class="price">$13.99</p>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<p>&copy; 2024 The Crust Chronicles. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+HOME.HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | The Crust Chronicles</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+<div class="container">
+<h1>The Crust Chronicles</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="my-orders.html">My Orders</a></li>
+</ul>
+</div>
+</nav>
+<main class="container">
+<section class="menu-hero">
+<h2>Our Delicious Pizza Menu</h2>
+<p>Crafted with fresh ingredients, baked to perfection</p>
+</section>
+<section class="menu-categories">
+<h3>Classic Pizzas</h3>
+<div class="pizza-grid">
+<div class="pizza-card">
+<img src="/images/closeup-tasty-appetizing-salami-pizza-with-cheese-spices.jpg"
+alt="Pepperoni Pizza">
+<h4>Classic Pepperoni</h4>
+<p>Loaded with spicy pepperoni and melted cheese</p>
+<p class="price">$12.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+<div class="pizza-card">
+<img src="/images/Cheese Lover's Pizza.png" alt="Cheese Pizza">
+<h4>Cheese Lover's Pizza</h4>
+<p>Four types of cheese on a perfect crust</p>
+<p class="price">$11.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+<div class="pizza-card">
+<img src="/images/classic m.png" alt="Margherita Pizza">
+<h4>Margherita Classic</h4>
+<p>Fresh basil, tomatoes, and mozzarella</p>
+<p class="price">$13.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+</div>
+<h3>Specialty Pizzas</h3>
+<div class="pizza-grid">
+<div class="pizza-card">
+<img src="/images/vs.png" alt="Veggie Supreme">
+<h4>Veggie Supreme</h4>
+<p>Loaded with fresh seasonal vegetables</p>
+<p class="price">$14.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+<div class="pizza-card">
+<img src="/images/mv.png" alt="Meat Lovers">
+<h4>Meat Lovers</h4>
+<p>Pepperoni, sausage, bacon, and ham</p>
+<p class="price">$15.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+<div class="pizza-card">
+<img src="/images/bbq.png" alt="BBQ Chicken">
+<h4>BBQ Chicken</h4>
+<p>Grilled chicken with tangy BBQ sauce</p>
+<p class="price">$14.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+</div>
+</section>
+</main>
+<footer>
+© 2024 The Crust Chronicles. All rights reserved.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+MY ORDERS.HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | The Crust Chronicles</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+<div class="container">
+<h1>The Crust Chronicles</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="my-orders.html">My Orders</a></li>
+</ul>
+</div>
+</nav>
+<main class="container">
+<section class="menu-hero">
+<h2>Our Delicious Pizza Menu</h2>
+<p>Crafted with fresh ingredients, baked to perfection</p>
+</section>
+<section class="menu-categories">
+<h3>Classic Pizzas</h3>
+<div class="pizza-grid">
+<div class="pizza-card">
+<img src="/images/closeup-tasty-appetizing-salami-pizza-with-cheese-spices.jpg"
+alt="Pepperoni Pizza">
+<h4>Classic Pepperoni</h4>
+<p>Loaded with spicy pepperoni and melted cheese</p>
+<p class="price">$12.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+<div class="pizza-card">
+<img src="/images/Cheese Lover's Pizza.png" alt="Cheese Pizza">
+<h4>Cheese Lover's Pizza</h4>
+<p>Four types of cheese on a perfect crust</p>
+<p class="price">$11.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+<div class="pizza-card">
+<img src="/images/classic m.png" alt="Margherita Pizza">
+<h4>Margherita Classic</h4>
+<p>Fresh basil, tomatoes, and mozzarella</p>
+<p class="price">$13.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+</div>
+<h3>Specialty Pizzas</h3>
+<div class="pizza-grid">
+<div class="pizza-card">
+<img src="/images/vs.png" alt="Veggie Supreme">
+<h4>Veggie Supreme</h4>
+<p>Loaded with fresh seasonal vegetables</p>
+<p class="price">$14.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+<div class="pizza-card">
+<img src="/images/mv.png" alt="Meat Lovers">
+<h4>Meat Lovers</h4>
+<p>Pepperoni, sausage, bacon, and ham</p>
+<p class="price">$15.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+<div class="pizza-card">
+<img src="/images/bbq.png" alt="BBQ Chicken">
+<h4>BBQ Chicken</h4>
+<p>Grilled chicken with tangy BBQ sauce</p>
+<p class="price">$14.99</p>
+<button class="btn add-to-order-btn add-to-order">Add to Order</button>
+</div>
+</div>
+</section>
+</main>
+<footer>
+© 2024 The Crust Chronicles. All rights reserved.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+JAVA SCRIPT:
+document.addEventListener('DOMContentLoaded', () => {
+// Existing modal creation function remains the same
+function createModal(title, content) {
+const modalWrapper = document.createElement('div');
+modalWrapper.className = 'modal';
+modalWrapper.innerHTML = `
+<div class="modal-content">
+<span class="close-modal">&times;</span>
+<h2>${title}</h2>
+${content}
+</div>
+`;
+document.body.appendChild(modalWrapper);
+modalWrapper.style.display = 'flex';
+// Close modal when clicking the 'x'
+const closeButton = modalWrapper.querySelector('.close-modal');
+closeButton.addEventListener('click', () => {
+document.body.removeChild(modalWrapper);
+});
+// Close modal when clicking outside the content
+modalWrapper.addEventListener('click', (e) => {
+if (e.target === modalWrapper) {
+document.body.removeChild(modalWrapper);
+}
+});
+}
+// New function to manage orders
+function manageOrders() {
+// Get the orders container
+const ordersContainer = document.getElementById('ordersContainer');
+// Initialize orders array in local storage if not exists
+if (!localStorage.getItem('pizzaOrders')) {
+localStorage.setItem('pizzaOrders', JSON.stringify([]));
+}
+// Function to render orders
+function renderOrders() {
+const orders = JSON.parse(localStorage.getItem('pizzaOrders'));
+if (orders.length === 0) {
+ordersContainer.innerHTML = 'You haven\'t placed any orders yet. Start by ordering
+your favorite pizza!';
+return;
+}
+// Create order list
+const orderList = document.createElement('ul');
+orderList.className = 'orders-list';
+orders.forEach((order, index) => {
+const orderItem = document.createElement('li');
+orderItem.className = 'order-item';
+orderItem.innerHTML = `
+<div class="order-details">
+<h3>${order.pizzaName}</h3>
+<p>Size: ${order.size}</p>
+<p>Price: $${order.price.toFixed(2)}</p>
+<button class="remove-order btn" data-index="${index}">Remove</button>
+</div>
+`;
+orderList.appendChild(orderItem);
+});
+ordersContainer.innerHTML = '';
+ordersContainer.appendChild(orderList);
+// Add event listeners for remove buttons
+const removeButtons = document.querySelectorAll('.remove-order');
+removeButtons.forEach(button => {
+button.addEventListener('click', (e) => {
+const index = e.target.getAttribute('data-index');
+const orders = JSON.parse(localStorage.getItem('pizzaOrders'));
+orders.splice(index, 1);
+localStorage.setItem('pizzaOrders', JSON.stringify(orders));
+renderOrders();
+});
+});
+}
+// Add to order functionality for menu pages
+const addToOrderButtons = document.querySelectorAll('.add-to-order');
+addToOrderButtons.forEach(button => {
+button.addEventListener('click', (e) => {
+const pizzaCard = e.target.closest('.pizza-card');
+const pizzaName = pizzaCard.querySelector('h3, h4').textContent;
+const price = parseFloat(pizzaCard.querySelector('.price').textContent.replace('$', ''));
+// If on order page, use form details
+const pizzaOrderForm = document.getElementById('pizzaOrderForm');
+if (pizzaOrderForm) {
+const pizzaType = document.getElementById('pizzaType').value;
+const pizzaSize =
+document.querySelector('input[name="pizzaSize"]:checked').value;
+const toppings =
+Array.from(document.querySelectorAll('input[name="toppings"]:checked'))
+.map(t => t.value)
+.join(', ');
+const orderDetails = {
+pizzaName: pizzaType,
+size: pizzaSize,
+toppings: toppings,
+price: price
+};
+const orders = JSON.parse(localStorage.getItem('pizzaOrders'));
+orders.push(orderDetails);
+localStorage.setItem('pizzaOrders', JSON.stringify(orders));
+} else {
+// For menu page
+const orderDetails = {
+pizzaName: pizzaName,
+size: 'Medium', // Default size
+price: price
+};
+const orders = JSON.parse(localStorage.getItem('pizzaOrders'));
+orders.push(orderDetails);
+localStorage.setItem('pizzaOrders', JSON.stringify(orders));
+}
+// Create confirmation modal
+const modalContent = `
+<div class="order-added-confirmation">
+<h3>Added to Orders</h3>
+<p>${pizzaName} has been added to your orders.</p>
+</div>
+`;
+createModal('Order Added', modalContent);
+// Render orders on My Orders page
+renderOrders();
+});
+});
+// Initial render of orders
+renderOrders();
+}
+// Call the order management function
+manageOrders();
+// Existing form submission code remains the same...
+});
+CSS:
+/* Modern Reset and Base Styles */
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap')
+;
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root {
+--primary-color: #444488;
+--secondary-color: #91e0db;
+--background-color: #F7FFF7;
+--text-color: #2C3E50;
+--card-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+body {
+font-family: 'Poppins', sans-serif;
+line-height: 1.6;
+background-color: var(--background-color);
+color: var(--text-color);
+}
+.container {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+/* Enhanced Navigation */
+nav {
+background-color: var(--primary-color);
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+position: sticky;
+top: 0;
+z-index: 100;
+}
+nav .container {
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 20px;
+}
+nav h1 {
+color: white;
+font-weight: 700;
+display: flex;
+align-items: center;
+}
+nav h1 img {
+margin-right: 10px;
+width: 40px;
+}
+nav ul {
+display: flex;
+list-style: none;
+}
+nav ul li {
+margin-left: 20px;
+}
+nav ul li a {
+color: white;
+text-decoration: none;
+position: relative;
+transition: all 0.3s ease;
+}
+nav ul li a::after {
+content: '';
+position: absolute;
+width: 0;
+height: 2px;
+bottom: -5px;
+left: 0;
+background-color: white;
+transition: width 0.1s ease;
+}
+nav ul li a:hover::after {
+width: 100%;
+}
+/* Hero Section */
+.hero {
+background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+color: white;
+text-align: center;
+padding: 100px 20px;
+clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+.hero h2 {
+font-size: 3rem;
+margin-bottom: 20px;
+}
+.hero p {
+font-size: 1.2rem;
+max-width: 700px;
+margin: 0 auto 30px;
+}
+/* Enhanced Pizza Cards */
+.pizza-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 30px;
+margin-top: 40px;
+}
+.pizza-card {
+background-color: white;
+border-radius: 15px;
+box-shadow: var(--card-shadow);
+padding: 25px;
+text-align: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+position: relative;
+overflow: hidden;
+}
+.pizza-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+.pizza-card img {
+max-width: 100%;
+height: 250px;
+object-fit: cover;
+border-radius: 10px;
+transition: transform 0.3s ease;
+}
+.pizza-card:hover img {
+transform: scale(1.1);
+}
+.pizza-card .price {
+color: var(--primary-color);
+font-weight: bold;
+font-size: 1.2rem;
+margin: 10px 0;
+}
+/* Modal Styles */
+.modal {
+display: none;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.6);
+align-items: center;
+justify-content: center;
+}
+.modal-content {
+background-color: white;
+border-radius: 15px;
+width: 90%;
+max-width: 500px;
+padding: 30px;
+position: relative;
+box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+animation: modalSlideIn 0.4s ease;
+}
+.close-modal {
+position: absolute;
+top: 15px;
+right: 15px;
+font-size: 30px;
+cursor: pointer;
+color: var(--primary-color);
+}
+@keyframes modalSlideIn {
+from {
+opacity: 0;
+transform: scale(0.7);
+}
+to {
+opacity: 1;
+transform: scale(1);
+}
+}
+/* Enhanced Form Styles */
+.form-group {
+margin-bottom: 20px;
+}
+.form-group label {
+display: block;
+margin-bottom: 8px;
+font-weight: 600;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+width: 100%;
+padding: 12px;
+border: 2px solid #e0e0e0;
+border-radius: 8px;
+transition: border-color 0.3s ease;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+outline: none;
+border-color: var(--primary-color);
+}
+/* Button Styles */
+.btn {
+display: inline-block;
+background-color: var(--primary-color);
+color: white;
+padding: 12px 25px;
+text-decoration: none;
+border-radius: 8px;
+transition: background-color 0.3s ease, transform 0.2s ease;
+border: none;
+font-weight: 600;
+cursor: pointer;
+}
+.btn:hover {
+background-color: #20006c;
+transform: translateY(-3px);
+}
+/* Footer Styles */
+footer {
+background-color: var(--text-color);
+color: white;
+text-align: center;
+padding: 30px 0;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+nav ul {
+flex-direction: column;
+align-items: center;
+}
+nav ul li {
+margin: 10px 0;
+}
+.hero h2 {
+font-size: 2rem;
+}
+}
